@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #588060;
+}
+
+main{
+	width: 90%; 
+	height: 370px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 80%;
+	height: 150px;
+	background-image: url(fondo.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+section{
+	background-color: #FFFFFF;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+	font-size: 30px;
+	color: #D5E895;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding: 1%;
+}
+
+h1{
+	font-size: 90px;
+	color: #19391D;
+	margin-right: 30%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+
+}
+
+#cara{
+	margin-left: 30%;
+	position: relative; top: -172%;
+
+}
+
+#columna{
+	margin-left: 20px;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid #1F441D;
+	padding-top: 20px;
+	padding-right: 20px ;
+	
+}
+
+h3{
+	font-size: 20px;
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+}
+
+#subtitulos{
+	font-size: 17px;
+	color: #588060;
+	text-align: center;
+}
+
+#grafico1{
+	margin-left: 36%;
+}
+
+#grafico2{
+	margin-left: 14%;
+}
+
+
+#grafico3{
+	margin-left: 31%;
+}
+
+#mj{
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+li{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	margin-left: 35%;
+}
+
+p{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+	margin-left: 2%;
+}
+
+footer{
+	width: 80%;
+	height: 80px;
+	background-color: #A3B6A4;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #0E4241;
+	margin-left: 41%;
+}
+
+.logo{
+	margin-left: 2%;
+	position: relative; top:-90%;
+}
+.logos{
+	padding-top: 2%;
+	margin-left: 27%;
+}
+
+.video{
+	width: 100%;
+	height: 190px;
+}
+
+#foto{
+	margin-left: 7%;
+}
+
+.sombratex{
+	text-shadow: 8px -2px 5px  #D5E895;
+}
+
+#borde{
+	border: 3px solid  #1F441D;
+	border-radius: 30px;
+	box-sizing: 20%;
+}
+
+#saurus{
+	color: #779679;
+}
+
+
+
+
+
+
+/* COMIENZAN LOS CODIGOS TABLET */
+
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+h1{
+	font-size: 90px;
+	color: #19391D;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h2{
+	font-size: 30px;
+	color: #D5E895;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding: 1%;
+}
+
+#cara{
+	margin-left: 10%;
+	position: relative; top: -172%;
+	padding: 6%;
+}
+
+#columna{
+	margin-left: 20px;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid #1F441D;
+	padding-top: 20px;
+	padding-right: 20px ;
+}
+
+h3{
+	font-size: 18px;
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+}
+
+#subtitulos{
+	font-size: 17px;
+	color: #588060;
+	text-align: center;
+}
+
+#grafico1{
+	margin-left: 36%;
+}
+
+#grafico2{
+	margin-left: 14%;
+}
+
+
+#grafico3{
+	margin-left: 31%;
+}
+
+#mj{
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+li{
+	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+	margin-left: 35%;
+}
+
+p{
+	font-size: 16px;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+	margin-left: 2%;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #0E4241;
+	margin-left: 37%;
+}
+
+.logo{
+	margin-left: 2%;
+	position: relative; top:-50%;
+}
+.logos{
+	padding-top: 2%;
+	margin-left: 27%;
+}
+
+.video{
+	width: 100%;
+	height: 140px;
+}
+
+#foto{
+	margin-left: 7%;
+	display: none;
+}
+
+.sombratex{
+	text-shadow: 8px -2px 5px  #D5E895;
+}
+
+#borde{
+	border: 3px solid  #1F441D;
+	border-radius: 30px;
+	box-sizing: 20%;
+}
+
+#saurus{
+	color: #779679;
+}
+
+}
+
+
+
+
+
+
+
+
+/* COMIENZAN LOS CODIGOS CELULAR */
+
+
+
+/* Celular */
+@media (min-width: 570px) and (max-width: 767px)
+{
+
+
+
+header{
+	width: 80%;
+	height: 120px;
+	background-image: url(fondo.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h1{
+	font-size: 65px;
+	color: #19391D;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h2{
+	font-size: 20px;
+	color: #D5E895;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding: 3%;
+}
+
+#cara{
+	margin-left: 1%;
+	margin-right: 30%;
+	position: relative; top: -195%;
+	padding: 8%;
+}
+
+#columna{
+	margin-left: 20px;
+	column-count: 1;
+}
+
+h3{
+	font-size: 18px;
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	padding: 1%;
+}
+
+#subtitulos{
+	font-size: 17px;
+	color: #588060;
+	text-align: center;
+}
+
+#grafico1{
+	margin-left: 36%;
+}
+
+#grafico2{
+	margin-left: 13.5%;
+}
+
+
+#grafico3{
+	margin-left: 30%;
+}
+
+#mj{
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+li{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	margin-left: 35%;
+}
+
+p{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+	margin-left: 2%;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #0E4241;
+	margin-left: 33%;
+}
+
+.logo{
+	margin-left: 2%;
+	position: relative; top:-47%;
+}
+
+.logos{
+	padding-top: 5%;
+	margin-left: 28%;
+
+}
+
+.video{
+	width: 100%;
+	height: 140px;
+	display: none;
+}
+
+#foto{
+	margin-left: 7%;
+	display: none;
+}
+
+.sombratex{
+	text-shadow: 8px -2px 5px  #D5E895;
+}
+
+#borde{
+	border: 3px solid  #1F441D;
+	border-radius: 30px;
+	box-sizing: 20%;
+}
+
+#saurus{
+	color: #779679;
+}
+
+}
+
+
+
+
+
+
+/* COMIENZAN LOS CODIGOS XL */
+
+
+@media (min-width: 1200px) and (max-width: 1390px)
+
+{ 
+
+header{
+	width: 100%;
+	height: 150px;
+	background-image: url(fondo.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+section{
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #A3B6A4;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+	font-size: 30px;
+	color: #D5E895;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding: 1%;
+}
+
+h1{
+	font-size: 90px;
+	color: #19391D;
+	margin-right: 30%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+
+}
+
+#cara{
+	margin-left: 40%;
+	position: relative; top: -172%;
+
+}
+
+#columna{
+	margin-left: 20px;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid #1F441D;
+	padding-top: 20px;
+	padding-right: 20px ;
+	
+}
+
+h3{
+	font-size: 20px;
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+}
+
+#subtitulos{
+	font-size: 17px;
+	color: #588060;
+	text-align: center;
+}
+
+#grafico1{
+	margin-left: 36%;
+}
+
+#grafico2{
+	margin-left: 14%;
+}
+
+
+#grafico3{
+	margin-left: 31%;
+}
+
+#mj{
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+li{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	margin-left: 35%;
+}
+
+p{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+	margin-left: 2%;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #0E4241;
+	margin-left: 41%;
+}
+
+.logo{
+	margin-left: 2%;
+	position: relative; top:-95%;
+}
+.logos{
+	padding-top: 2%;
+	margin-left: 27%;
+}
+
+.video{
+	width: 95%;
+	height: 190px;
+}
+
+#foto{
+	margin-left: 7%;
+}
+
+.sombratex{
+	text-shadow: 8px -2px 5px  #D5E895;
+}
+
+#borde{
+	border: 3px solid  #1F441D;
+	border-radius: 30px;
+	box-sizing: 20%;
+}
+
+#saurus{
+	color: #779679;
+}
+}
+
+
+
+
+/* COMIENZAN LOS CODIGOS XXL */
+
+@media (min-width: 1400px)
+
+{
+
+header{
+	width: 100%;
+	height: 170px;
+	background-image: url(fondo.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+section{
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #A3B6A4;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+	font-size: 30px;
+	color: #D5E895;
+	margin-right: 40%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	padding: 1%;
+}
+
+h1{
+	font-size: 90px;
+	color: #19391D;
+	margin-right: 30%;
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+
+}
+
+#cara{
+	margin-left: 40%;
+	position: relative; top: -150%;
+
+}
+
+#columna{
+	margin-left: 20px;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid #1F441D;
+	padding-top: 20px;
+	padding-right: 20px ;
+	
+}
+
+h3{
+	font-size: 20px;
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+}
+
+#subtitulos{
+	font-size: 17px;
+	color: #588060;
+	text-align: center;
+}
+
+#grafico1{
+	margin-left: 36%;
+}
+
+#grafico2{
+	margin-left: 14%;
+}
+
+
+#grafico3{
+	margin-left: 31%;
+}
+
+#mj{
+	color: #006600;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+li{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	margin-left: 35%;
+}
+
+p{
+	font-size: 17px;
+	font-family: 'Rubik', sans-serif;
+	padding: 3%;
+	margin-left: 2%;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #0E4241;
+	margin-left: 42%;
+}
+
+.logo{
+	margin-left: 2%;
+	position: relative; top:-75%;
+}
+
+.logos{
+	padding-top: 2%;
+	margin-left: 27%;
+}
+
+.video{
+	width: 80%;
+	height: 190px;
+	margin-left: 10%;
+}
+
+#foto{
+	margin-left: 7%;
+}
+
+.sombratex{
+	text-shadow: 8px -2px 5px  #D5E895;
+}
+
+#borde{
+	border: 3px solid  #1F441D;
+	border-radius: 30px;
+	box-sizing: 20%;
+}
+
+#saurus{
+	color: #779679;
+}
+}
